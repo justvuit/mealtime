@@ -1,0 +1,125 @@
+@font-face { font-family: koliko; src: url('koliko-Bold.ttf'); }
+@font-face { font-family: qanelas; src: url('Qanelas.otf'); }
+
+body, html {
+  background-color: #FFF8F0;
+  max-height: 100vh;
+}
+
+#wrapper {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+    margin-top: -50px;
+}
+
+#title {
+  font-size: 9em;
+  color: #FFDB76;
+  font-family: koliko;
+  text-shadow: 13px 7px 2px #EDA394,
+               12px 6.5px 2px #EDA394,
+               11px 6px 2px #EDA394,
+               10px 5.5px 2px #EDA394,
+               9px 5px 2px #EDA394,
+               8px 4.5px 2px #EDA394,
+               7px 4px 2px #EDA394,
+               6px 3.5px 2px #EDA394,
+               5px 3px 2px #EDA394,
+               4px 2.5px 2px #EDA394,
+               3px 2px 2px #EDA394,
+               2px 1.5px 2px #EDA394,
+               1px 1px 2px #EDA394;
+  margin-top: 40px;
+}
+
+#bottom {
+  margin-top: -40px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 250px 250px;
+  max-height: 20vh;
+  margin-bottom: 50px;
+}
+
+#skills {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: #EDA394;
+  border-radius: 30px;
+  margin-right: 10px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: qanelas;
+  color: #6D6D6D;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#menu {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.item {
+  height: 240px;
+  width: 240px;
+  background-color: #FFDB76;
+  border-radius: 30px;
+  margin-top: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white;
+  font-family: qanelas;
+  font-size: 1.5em;
+}
+
+.item:hover {
+  background-color: #F2CF6D;
+}
+
+.mealLogo {
+  height: 60%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.botnav {
+  background-color: #FFDB76;
+  /* bottom: 0; */
+  /* position: fixed; */
+  width: 100%;
+}
+
+.topnav {
+  background-color: #FFDB76;
+  height: 40px;
+  font-family: koliko;
+  color: white;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navTitle {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.5em;
+    color: white;
+}

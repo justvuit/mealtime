@@ -1,0 +1,114 @@
+@font-face { font-family: koliko; src: url('koliko-Bold.ttf'); }
+@font-face { font-family: qanelas; src: url('Qanelas.otf'); }
+
+body, html {
+  background-color: #FFF8F0;
+  max-height: 100vh;
+}
+
+#wrapper {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+}
+
+#title {
+  font-size: 14em;
+  color: #EDA394;
+  font-family: koliko;
+  text-shadow: 13px 7px 2px #AFE0EF,
+               12px 6.5px 2px #AFE0EF,
+               11px 6px 2px #AFE0EF,
+               10px 5.5px 2px #AFE0EF,
+               9px 5px 2px #AFE0EF,
+               8px 4.5px 2px #AFE0EF,
+               7px 4px 2px #AFE0EF,
+               6px 3.5px 2px #AFE0EF,
+               5px 3px 2px #AFE0EF,
+               4px 2.5px 2px #AFE0EF,
+               3px 2px 2px #AFE0EF,
+               2px 1.5px 2px #AFE0EF,
+               1px 1px 2px #AFE0EF;
+  margin-top: -50px;
+}
+
+.options {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: qanelas;
+  font-size: 24pt;
+  text-align: center;
+  align-items: center;
+}
+
+#breakfast {
+  height: 380px;
+  width: 380px;
+  border-radius: 30px;
+  background-color: #AFE0EF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  flex-shrink: 1;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+#breakfast:hover {
+  background-color: #99C4CE;
+}
+
+#lunch {
+  height: 380px;
+  width: 380px;
+  border-radius: 30px;
+  background-color: #FFDB76;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  color: white;
+  flex-shrink: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+#lunch:hover {
+  background-color: #F2CF6D;
+}
+
+#dinner {
+  height: 380px;
+  color: white;
+  width: 380px;
+  border-radius: 30px;
+  background-color: #AFE8B5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-shrink: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+#dinner:hover {
+  background-color: #A3D5A8;
+}
+
+.mealLogo {
+  height: 70%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  background-color: #BFBFBF;
+  height: 50px;
+  margin-bottom: 0px
+}
